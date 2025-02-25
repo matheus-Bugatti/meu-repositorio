@@ -35,14 +35,16 @@ border-radius: 5px;
 .branco {
     background-color: #fff;
     color: #000;
-    width: 130px;
-    font-size: 21px;
+    width: 100px;
+    height: 30px;
+    font-size: 17px;
 }
 .corrige {
     background-color: #F6B441;
     color: #000;
-    width: 130px;
-    font-size: 21px;
+    width: 100px;
+    height: 30px;
+    font-size: 17px;
 }
 .confirma {
     background-color: #306B4F;
@@ -53,4 +55,10 @@ border-radius: 5px;
 .teclado--linha {
     display: flex;
     justify-content: center;
+    align-items: flex-end;
+}
+.botoes {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
 }
